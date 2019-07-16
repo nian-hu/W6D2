@@ -1,0 +1,57 @@
+.hanoi {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 800px;
+  border: solid 10px black;
+  background-color: #ccffff;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4em;
+  font-family: "Courier New", Courier, monospace;
+}
+
+ul {
+  border-bottom: solid 10px black;
+  margin: 10px;
+  list-style: none;
+  padding-left: 0px;
+}
+
+ul:hover {
+  border-color: chartreuse; 
+  border-width: 15px;
+}
+
+li {
+  width: 200px;
+  height: 50px;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.disc1 {
+  background-color: red;
+  border: solid 3px #cc2900;
+  width: 66px;
+}
+
+.disc2 {
+  background-color: orange;
+  border: solid 3px darkorange;
+  width: 133px;
+}
+
+.disc3 {
+  background-color: yellow;
+  border: solid 3px #ffcc00;
+}
+
+.selected {
+  border-color: hotpink;
+  border-width: 15px;
+}
